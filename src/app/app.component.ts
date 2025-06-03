@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-declare const aos: any;
+import * as AOS from 'aos'; 
 
 @Component({
   selector: 'app-root',
@@ -8,7 +8,11 @@ declare const aos: any;
 })
 export class AppComponent implements OnInit {
   title = 'portfolio';
+
   ngOnInit() {
-    aos.init({ duration: 1000, once: true });
+    AOS.init({
+      duration: 1000, // animation duration in ms
+      once: true      // whether animation should happen only once while scrolling down
+    });
   }
 }

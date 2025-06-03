@@ -1,0 +1,42 @@
+.home-container {
+    min-height: 100vh;
+    padding: 4rem 2rem;
+    background: linear-gradient(135deg, #1f1c2c, #928dab);
+    color: #ffffff;
+    overflow-x: hidden;
+}
+
+.typing-animation {
+    font-size: 1.5rem;
+    font-weight: 600;
+    min-height: 38px;
+}
+
+.cursor {
+    display: inline-block;
+    animation: blink 1s step-end infinite;
+    font-weight: bold;
+    color: #ffd369;
+}
+
+@keyframes blink {
+    50% {
+        opacity: 0;
+    }
+}
+
+.hero-image {
+    max-width: 400px;
+}
+
+/* Dark Mode */
+body.dark-mode .home-container {
+    background: linear-gradient(135deg, #000000, #1a1a1a);
+    color: #e0e0e0;
+}
+
+body.dark-mode .btn-outline-light:hover {
+    background-color: #ffd369;
+    color: #000;
+    border-color: #ffd369;
+}
