@@ -1,0 +1,77 @@
+/* Radiant gradient background (light mode) */
+.radiant-bg {
+    background: linear-gradient(135deg, #1f1c2c, #928dab);
+}
+
+/* Navbar link styles */
+.nav-link {
+    color: #ffffff;
+    font-weight: 500;
+    position: relative;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover,
+.nav-link.active {
+    color: #ffd369;
+}
+
+.nav-link::after {
+    content: "";
+    display: block;
+    width: 0%;
+    height: 2px;
+    background: #ffd369;
+    transition: width 0.3s ease;
+    margin-top: 4px;
+}
+
+.nav-link:hover::after,
+.nav-link.active::after {
+    width: 100%;
+}
+
+/* Navbar toggle (for mobile) */
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+/* Toggle button styling */
+.toggle-btn {
+    background: none;
+    border: none;
+    font-size: 1.3rem;
+    color: white;
+    transition: transform 0.3s ease;
+}
+
+.toggle-btn:hover {
+    transform: scale(1.2);
+}
+
+/* ========== Dark Mode Styles ========== */
+body.dark-mode {
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+body.dark-mode .radiant-bg {
+    background: linear-gradient(135deg, #000000, #222222);
+}
+
+body.dark-mode .nav-link {
+    color: #e0e0e0;
+}
+
+body.dark-mode .nav-link:hover,
+body.dark-mode .nav-link.active {
+    color: #ffd369;
+}
+
+body.dark-mode .toggle-btn {
+    color: #ffd369;
+}

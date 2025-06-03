@@ -1,1 +1,24 @@
 /* You can add global styles to this file, and also import other style files */
+/* styles.css */
+
+body.dark-mode {
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+body.dark-mode .radiant-bg {
+    background: linear-gradient(135deg, #000000, #222222);
+}
+
+body.dark-mode .nav-link {
+    color: #e0e0e0;
+}
+
+body.dark-mode .nav-link:hover,
+body.dark-mode .nav-link.active {
+    color: #ffd369;
+}
+
+body.dark-mode .toggle-btn {
+    color: #ffd369;
+}
