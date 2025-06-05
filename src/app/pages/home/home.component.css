@@ -1,42 +1,54 @@
 .home-container {
-    min-height: 100vh;
-    padding: 4rem 2rem;
-    background: linear-gradient(135deg, #1f1c2c, #928dab);
-    color: #ffffff;
-    overflow-x: hidden;
+  min-height: 100vh;
+  padding: 4rem 2rem;
+  background: linear-gradient(135deg, #1f1c2c, #928dab);
+  color: #ffffff;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 
+/* Typing Animation Style */
 .typing-animation {
-    font-size: 1.5rem;
-    font-weight: 600;
-    min-height: 38px;
+  font-size: 1.5rem;
+  font-weight: 600;
+  min-height: 38px;
 }
 
+/* Cursor Animation */
 .cursor {
-    display: inline-block;
-    animation: blink 1s step-end infinite;
-    font-weight: bold;
-    color: #ffd369;
+  display: inline-block;
+  animation: blink 1s step-end infinite;
+  font-weight: bold;
+  color: #ffd369;
 }
 
 @keyframes blink {
-    50% {
-        opacity: 0;
-    }
+  50% {
+    opacity: 0;
+  }
 }
 
 .hero-image {
-    max-width: 400px;
+  max-width: 400px;
+  width: 100%;
+  height: auto;
+  margin-top: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
 }
 
-/* Dark Mode */
+/* === Dark Mode Overrides === */
 body.dark-mode .home-container {
-    background: linear-gradient(135deg, #000000, #1a1a1a);
-    color: #e0e0e0;
+  background: linear-gradient(135deg, #000000, #1a1a1a);
+  color: #e0e0e0;
 }
 
 body.dark-mode .btn-outline-light:hover {
-    background-color: #ffd369;
-    color: #000;
-    border-color: #ffd369;
+  background-color: #ffd369;
+  color: #000;
+  border-color: #ffd369;
 }

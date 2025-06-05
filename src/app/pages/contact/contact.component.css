@@ -1,0 +1,63 @@
+.diamond-wrapper {
+  position: relative;
+  width: 100%;
+  max-width: 600px;
+  height: 400px;
+  margin: 0 auto;
+}
+
+.diamond-card {
+  position: absolute;
+  width: 180px;
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 12px;
+  padding: 20px;
+  color: #fff;
+  text-align: center;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
+  transition: transform 0.3s ease;
+  z-index: 1;
+}
+
+/* Adjusted positioning for diamond layout */
+.diamond-card.top {
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.diamond-card.left {
+  top: 50%;
+  left: 0;
+  transform: translate(-50%, -50%);
+}
+
+.diamond-card.right {
+  top: 50%;
+  right: 0;
+  transform: translate(50%, -50%);
+}
+
+.diamond-card.bottom {
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 50%);
+}
+
+.diamond-card:hover {
+  transform: scale(1.05) !important;
+  z-index: 2;
+}
+
+.contact-icon {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: #ffd369;
+}
+
+.diamond-card a {
+  color: #ffd369;
+  text-decoration: none;
+  font-weight: 500;
+}

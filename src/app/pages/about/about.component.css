@@ -1,0 +1,37 @@
+.about-container {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #1f1c2c, #928dab);
+  color: #ffffff;
+  overflow-x: hidden;
+  padding: 4rem 2rem;
+}
+
+.about-avatar {
+  max-width: 280px;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
+  animation: floatAvatar 6s ease-in-out infinite;
+}
+
+@keyframes floatAvatar {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-15px);
+  }
+}
+
+.text-accent {
+  color: #ffd369;
+}
+
+.btn-primary {
+  background-color: #6f42c1;
+  border-color: #6f42c1;
+}
+
+.btn-primary:hover {
+  background-color: #875fd1;
+  border-color: #875fd1;
+}

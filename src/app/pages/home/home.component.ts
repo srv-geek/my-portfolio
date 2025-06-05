@@ -8,7 +8,7 @@ import { Component, AfterViewInit, ViewChild, ElementRef } from '@angular/core';
 export class HomeComponent implements AfterViewInit{
 @ViewChild('typedText') typedText!: ElementRef;
 
-  phrases = ['Full Stack Developer', 'Angular Enthusiast', 'Spring Boot Coder'];
+  phrases = ['Java Developer', 'Full Stack Developer', 'Angular Specialist', 'Spring Boot Expert'];
   currentPhrase = 0;
   currentChar = 0;
 

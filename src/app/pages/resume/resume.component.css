@@ -1,0 +1,69 @@
+/* Radiant gradient background */
+.radiant-bg {
+  background: linear-gradient(135deg, #fbc2eb 0%, #a6c1ee 100%);
+  min-height: 100vh;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  color: #111;
+  transition: background 0.5s ease;
+}
+
+/* Section headers */
+.resume-container h2,
+.resume-container h5 {
+  color: #2c2c2c;
+  font-weight: 600;
+}
+
+/* Paragraph and list text */
+.resume-container p,
+.resume-container li {
+  font-size: 1rem;
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+/* Resume PDF download button */
+.btn-success {
+  font-size: 1rem;
+  padding: 10px 25px;
+  border-radius: 25px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
+
+.btn-success:hover {
+  transform: scale(1.05);
+}
+
+/* Iframe for embedded resume */
+.pdf-viewer iframe {
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
+  border: none;
+}
+
+/* Bulletless list for achievements and strengths */
+.resume-container ul.list-unstyled {
+  padding-left: 0;
+  list-style: none;
+}
+
+/* Responsive spacing between sections */
+.resume-container .row > div {
+  padding: 1rem;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.8);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.resume-container .row > div:hover {
+  transform: translateY(-5px);
+}
+
+/* Subtle fade-in animations using Animate.css */
+.animate__animated {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}

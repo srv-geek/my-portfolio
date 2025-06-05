@@ -1,7 +1,7 @@
 <!-- File: src/app/components/navbar/navbar.component.html -->
 <nav class="navbar navbar-expand-lg navbar-dark radiant-bg py-3 shadow-sm">
     <div class="container">
-      <a class="navbar-brand fw-bold fs-4" routerLink="/">Shubham Raj</a>
+      <a class="navbar-brand fw-bold fs-4" routerLink="/">Shubham Raj Verma</a>
       <button
         class="navbar-toggler"
         type="button"
@@ -19,7 +19,7 @@
             <a routerLink="/" class="nav-link" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">Home</a>
           </li>
           <li class="nav-item">
-            <a routerLink="/about" class="nav-link" routerLinkActive="active">About</a>
+            <a routerLink="/about" class="nav-link" routerLinkActive="active">About Me</a>
           </li>
           <li class="nav-item">
             <a routerLink="/projects" class="nav-link" routerLinkActive="active">Projects</a>
@@ -30,13 +30,11 @@
           <li class="nav-item">
             <a routerLink="/contact" class="nav-link" routerLinkActive="active">Contact</a>
           </li>
+          <li class="nav-item">
+            <a routerLink="/certificates" class="nav-link" routerLinkActive="active">Certificates</a>
+          </li>
         </ul>
-  
-        <!-- Dark Mode Toggle Button -->
-        <button class="btn toggle-btn ms-3" (click)="toggleDarkMode()" title="Toggle Dark Mode">
-          <span *ngIf="!isDarkMode">🌙</span>
-          <span *ngIf="isDarkMode">☀️</span>
-        </button>
+
       </div>
     </div>
   </nav>
