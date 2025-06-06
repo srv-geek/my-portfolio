@@ -1,0 +1,22 @@
+.certificates-section {
+  background: linear-gradient(135deg, #1f1c2c, #928dab); 
+  color: #fff;
+}
+
+.certificate-card {
+  background: rgba(255, 255, 255, 0.05); 
+  backdrop-filter: blur(12px);
+  border-radius: 1.2rem;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.35);
+  transition: transform 0.3s ease;
+}
+
+.certificate-card:hover {
+  transform: scale(1.02);
+}
+
+.certificate-pdf-wrapper iframe {
+  border-radius: 0.75rem;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+  border: none;
+}

@@ -1,0 +1,33 @@
+.radiant-bg {
+  background: linear-gradient(135deg, #1f1c2c, #928dab);
+  color: white;
+}
+
+.bg-glass {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.project-card {
+  transition: transform 0.3s ease-in-out;
+}
+
+.project-card:hover {
+  transform: translateY(-10px);
+}
+
+.projects-section a.btn {
+  border-radius: 30px;
+}
+
+.tech-stack,
+.features,
+.problem {
+  text-align: left;
+}
+
+.tech-stack ul,
+.features ul {
+  padding-left: 1rem;
+}
