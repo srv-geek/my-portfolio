@@ -1,5 +1,5 @@
 .certificates-section {
-  background: linear-gradient(135deg, #1f1c2c, #928dab); 
+  background: linear-gradient(to right, #6a11cb, #2575fc); 
   color: #fff;
 }
 
@@ -9,6 +9,7 @@
   border-radius: 1.2rem;
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.35);
   transition: transform 0.3s ease;
+  font-family: 'Inter', sans-serif;
 }
 
 .certificate-card:hover {

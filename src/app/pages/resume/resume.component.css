@@ -10,18 +10,21 @@
 .resume-container h2,
 .resume-container h5 {
   color: #2c2c2c;
+  font-family: 'Inter', sans-serif;
   font-weight: 600;
 }
 
 .resume-container p,
 .resume-container li {
   font-size: 1rem;
+  font-family: 'Inter', sans-serif;
   color: #333;
   margin-bottom: 0.5rem;
 }
 
 .btn-success {
   font-size: 1rem;
+  font-family: 'Inter', sans-serif;
   padding: 10px 25px;
   border-radius: 25px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);

@@ -9,6 +9,7 @@
     font-weight: 500;
     position: relative;
     transition: color 0.3s ease;
+    font-family: 'Inter', sans-serif;
 }
 
 .nav-link:hover,
