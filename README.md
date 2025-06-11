@@ -80,7 +80,6 @@ Your site will be available at:
 - Home Page  
 - Projects Section
 
-*(You can insert actual screenshots here by uploading images and using `![Alt Text](image-link)` syntax)*
 
 ---
 
