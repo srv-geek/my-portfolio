@@ -22,7 +22,7 @@ This is a modern, responsive, and animated portfolio built using **Angular** and
 
 ## 🛠 Tech Stack
 
-- **Frontend**: Angular 16+, TypeScript
+- **Frontend**: Angular 16+, TypeScript, HTML
 - **Styling**: Bootstrap 5.3.2, SCSS, CSS Animations
 - **Animations**: AOS (Animate on Scroll)
 - **Icons**: Bootstrap Icons
@@ -35,47 +35,64 @@ This is a modern, responsive, and animated portfolio built using **Angular** and
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/srv-geek/my-portfolio.git
-cd my-portfolio
-2. Install dependencies
-bash
-Copy
-Edit
-npm install
-3. Run locally
-bash
-Copy
-Edit
-ng serve
-Visit: http://localhost:4200
+git clone https://github.com/<your-github-username>/<repository-name>.git
+cd <repository-name>
+```
 
-🔧 Deploying to GitHub Pages
+### 2. Install dependencies
+
+```bash
+npm install
+```
+
+### 3. Run locally
+
+```bash
+ng serve
+```
+
+Visit: [http://localhost:4200](http://localhost:4200)
+
+---
+
+## 🔧 Deploying to GitHub Pages
+
 If you haven't already, configure the build for GitHub Pages:
 
-bash
-Copy
-Edit
-ng build --output-path docs --base-href "/my-portfolio/"
-Then push the docs/ folder to GitHub:
+```bash
+ng build --output-path docs --base-href "/<repository-name>/"
+```
 
-bash
-Copy
-Edit
+Then push the `docs/` folder to GitHub:
+
+```bash
 git add .
 git commit -m "Deploy updated portfolio"
 git push origin main
+```
+
 Your site will be available at:
-📍 https://srv-geek.github.io/my-portfolio/
+📍 https://<your-github-username>.github.io/<repository-name>/
+---
 
-📸 Screenshots
-Home Page	Projects Section
-	
+## 📸 Screenshots
 
-📬 Contact
-💼 LinkedIn: [linkedin.com/in/srv-geek
-](http://linkedin.com/in/shubham-verma-177a50192)
-🐱 GitHub: [github.com/srv-geek](https://github.com/srv-geek)
+- Home Page  
+- Projects Section
 
-📄 License
-This project is licensed under the MIT License.
+*(You can insert actual screenshots here by uploading images and using `![Alt Text](image-link)` syntax)*
+
+---
+
+## 📬 Contact
+
+- 💼 LinkedIn: [linkedin.com/in/srv-geek](http://linkedin.com/in/shubham-verma-177a50192)  
+- 🐱 GitHub: [github.com/srv-geek](https://github.com/srv-geek)
+
+---
+
+## 📄 License
+
+This project is licensed under the **MIT License**.
+
 
