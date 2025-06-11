@@ -1,27 +1,81 @@
-# Portfolio
+# 💼 My Developer Portfolio
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.8.
+This is a modern, responsive, and animated portfolio built using **Angular** and **Bootstrap 5**, showcasing my skills, projects, and experience as a Full Stack Developer.
 
-## Development server
+## 🌐 Live Site
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+👉 [Visit Portfolio](https://srv-geek.github.io/my-portfolio/)
 
-## Code scaffolding
+---
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## 📌 Features
 
-## Build
+- ⚡ Fast and fully responsive design
+- 🎨 Radiant gradient theme with glassmorphism cards
+- 📱 Mobile-friendly navbar with working toggle menu
+- ✨ Smooth scroll and scroll animations using AOS
+- 📂 Project cards with GitHub links, screenshots, and tech stack details
+- 📜 Certificate section with description and PDF preview
+- 📨 Contact section with email and social media links
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+---
 
-## Running unit tests
+## 🛠 Tech Stack
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+- **Frontend**: Angular 16+, TypeScript
+- **Styling**: Bootstrap 5.3.2, SCSS, CSS Animations
+- **Animations**: AOS (Animate on Scroll)
+- **Icons**: Bootstrap Icons
+- **Hosting**: GitHub Pages
 
-## Running end-to-end tests
+---
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## 🚀 Getting Started
 
-## Further help
+### 1. Clone the repository
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+```bash
+git clone https://github.com/srv-geek/my-portfolio.git
+cd my-portfolio
+2. Install dependencies
+bash
+Copy
+Edit
+npm install
+3. Run locally
+bash
+Copy
+Edit
+ng serve
+Visit: http://localhost:4200
+
+🔧 Deploying to GitHub Pages
+If you haven't already, configure the build for GitHub Pages:
+
+bash
+Copy
+Edit
+ng build --output-path docs --base-href "/my-portfolio/"
+Then push the docs/ folder to GitHub:
+
+bash
+Copy
+Edit
+git add .
+git commit -m "Deploy updated portfolio"
+git push origin main
+Your site will be available at:
+📍 https://srv-geek.github.io/my-portfolio/
+
+📸 Screenshots
+Home Page	Projects Section
+	
+
+📬 Contact
+💼 LinkedIn: [linkedin.com/in/srv-geek
+](http://linkedin.com/in/shubham-verma-177a50192)
+🐱 GitHub: [github.com/srv-geek](https://github.com/srv-geek)
+
+📄 License
+This project is licensed under the MIT License.
+
