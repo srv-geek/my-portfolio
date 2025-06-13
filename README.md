@@ -71,8 +71,9 @@ git commit -m "Deploy updated portfolio"
 git push origin main
 ```
 
-Your site will be available at:
-📍 https://<your-github-username>.github.io/<repository-name>/
+Your site will be available at: 
+📍 https://your-username.github.io/your-repo-name/
+
 ---
 
 ## 📸 Screenshots
