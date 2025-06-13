@@ -78,8 +78,11 @@ Your site will be available at:
 
 ## 📸 Screenshots
 
-- Home Page  
-- Projects Section
+Here is how the homepage looks:
+- ![Homepage Screenshot]([assets/homepage.png](https://i.postimg.cc/TYdny613/Screenshot-322.png))
+
+Here is how the project section looks:
+- ![Project Section Screenshot]([assets/homepage.png](https://i.postimg.cc/3Jf0d0zt/Screenshot-323.png))
 
 
 ---
