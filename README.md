@@ -79,10 +79,10 @@ Your site will be available at:
 ## 📸 Screenshots
 
 Here is how the homepage looks:
-- ![Homepage Screenshot]([assets/homepage.png](https://i.postimg.cc/TYdny613/Screenshot-322.png))
+- ![Homepage Screenshot](assets/Homepage.png)
 
 Here is how the project section looks:
-- ![Project Section Screenshot]([assets/homepage.png](https://i.postimg.cc/3Jf0d0zt/Screenshot-323.png))
+- ![Project Section Screenshot](assets/Project_section.png)
 
 
 ---
