@@ -7,4 +7,14 @@ import { Component } from '@angular/core';
 })
 export class ProjectsComponent {
 
+  selectedFilter: string = 'all';
+
+  setFilter(filter: string): void {
+    this.selectedFilter = filter;
+  }
+
+  showProject(type: string): boolean {
+    return this.selectedFilter === 'all' || this.selectedFilter === type;
+  }
+
 }

@@ -1,23 +1,19 @@
-/* Prevent horizontal overflow globally */
 body {
   overflow-x: hidden;
   font-family: 'Inter', sans-serif;
 }
 
-/* Main section styling */
 .radiant-bg {
   background: linear-gradient(135deg, #1f1c2c, #928dab);
   color: white;
 }
 
-/* Glass effect */
 .bg-glass {
   background: rgba(255, 255, 255, 0.05);
   backdrop-filter: blur(8px);
   border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
-/* Project card hover */
 .project-card {
   transition: transform 0.3s ease-in-out;
   width: 100%;
@@ -28,12 +24,10 @@ body {
   transform: translateY(-10px);
 }
 
-/* Button rounded corners */
 .projects-section a.btn {
   border-radius: 30px;
 }
 
-/* Ensure text alignment inside tech sections */
 .tech-stack,
 .features,
 .problem {
@@ -45,15 +39,33 @@ body {
   padding-left: 1rem;
 }
 
-/* Image responsiveness */
 .project-card img {
   max-width: 100%;
   height: auto;
   display: block;
 }
 
-/* Fix extra spacing caused by Bootstrap grid on small screens */
 .row {
   margin-left: 0 !important;
   margin-right: 0 !important;
+}
+
+.badge {
+  background-color: #ffc107;
+  color: #1f1c2c;
+  font-weight: 600;
+  padding: 0.5rem 0.75rem;
+  margin: 0 0.25rem;
+  border-radius: 20px;
+  font-size: 0.85rem;
+}
+
+.btn-outline-success {
+  color: white !important;
+  border-color: #28a745 !important;
+}
+
+.btn-outline-success:hover {
+  background-color: #28a745 !important;
+  color: white !important;
 }
