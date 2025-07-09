@@ -82,7 +82,7 @@ Here is how the homepage looks:
 ![Homepage Screenshot](src/assets/Homepage.png)
 
 Here is how the project section looks:  
-![Project Section Screenshot](src/assets/project_section.png)
+![Project Section Screenshot](src/assets/Project_section.png)
 
 
 ---
