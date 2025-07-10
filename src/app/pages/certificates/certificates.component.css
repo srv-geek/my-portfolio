@@ -1,23 +1,60 @@
 .certificates-section {
-  background: linear-gradient(to right, #6a11cb, #2575fc); 
+  background: linear-gradient(to right, #6a11cb, #2575fc);
   color: #fff;
-}
-
-.certificate-card {
-  background: rgba(255, 255, 255, 0.05); 
-  backdrop-filter: blur(12px);
-  border-radius: 1.2rem;
-  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.35);
-  transition: transform 0.3s ease;
   font-family: 'Inter', sans-serif;
 }
 
-.certificate-card:hover {
-  transform: scale(1.02);
+.certificate-card {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  border-radius: 1rem;
+  transition: transform 0.3s ease;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  color: #fff;
 }
 
-.certificate-pdf-wrapper iframe {
+.certificate-card:hover {
+  transform: translateY(-5px);
+}
+
+.cert-img-detailed {
+  max-height: 250px;
+  object-fit: contain;
   border-radius: 0.75rem;
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
-  border: none;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.cert-img {
+  max-height: 180px;
+  object-fit: contain;
+  border-radius: 0.75rem;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.certificate-card h6 {
+  font-weight: 600;
+}
+
+.btn-outline-light {
+  border: 1px solid #fff;
+  color: #fff;
+}
+
+.btn-outline-light:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+.cert-img {
+  max-height: 180px;
+  object-fit: contain;
+  border-radius: 0.75rem;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+.cert-img-detailed {
+  max-height: 300px;
+  object-fit: contain;
+  border-radius: 0.75rem;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.3);
 }
