@@ -36,3 +36,13 @@
   background-color: #875fd1;
   border-color: #875fd1;
 }
+
+app-footer {
+  width: 100%;
+  padding: 2rem 0;
+  background: linear-gradient(135deg, #1f1c2c, #928dab);
+  color: white;
+  text-align: center;
+  box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.2);
+  font-size: 0.95rem;
+}
