@@ -1,68 +1,66 @@
-.radiant-bg {
-  background: linear-gradient(135deg, #fbc2eb 0%, #a6c1ee 100%);
+.resume-bg {
   min-height: 100vh;
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-  color: #111;
-  transition: background 0.5s ease;
+  background: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
 }
 
-.resume-container h2,
-.resume-container h5 {
-  color: #2c2c2c;
-  font-family: 'Inter', sans-serif;
+.resume-download-btn {
+  font-weight: 500;
+  padding: 12px 32px;
+  border-radius: 40px;
+  box-shadow: 0 4px 24px rgba(25, 118, 210, 0.08);
+  transition: background 0.22s, box-shadow 0.22s;
+}
+
+.resume-download-btn:hover {
+  background: #1763aa;
+}
+
+.resume-card {
+  background: rgba(255, 255, 255, 0.288);
+  border-radius: 18px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  padding: 30px 24px 22px 24px;
+  transition: box-shadow .23s, transform .23s;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  height: 100%;
+  color: #160c34;
+}
+
+.resume-card:hover {
+  box-shadow: 0 8px 38px rgba(30, 44, 100, 0.17);
+  transform: translateY(-6px) scale(1.016);
+}
+
+.resume-highlight {
+  border-left: 5px solid #1976d2;
+  background: linear-gradient(106deg, #fff7e7 0%, #e9f7ff 100%);
+}
+
+.resume-card h4 {
+  font-size: 1.3rem;
   font-weight: 600;
+  margin-bottom: 0;
 }
 
-.resume-container p,
-.resume-container li {
-  font-size: 1rem;
-  font-family: 'Inter', sans-serif;
-  color: #333;
-  margin-bottom: 0.5rem;
+.resume-card ul {
+  margin-top: 8px;
+  margin-bottom: 0;
+  padding-left: 20px;
 }
 
-.btn-success {
-  font-size: 1rem;
-  font-family: 'Inter', sans-serif;
-  padding: 10px 25px;
-  border-radius: 25px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
-  transition: transform 0.3s ease;
+.resume-card li {
+  margin-bottom: 5px;
+  line-height: 1.60;
 }
 
-.btn-success:hover {
-  transform: scale(1.05);
-}
+/* Responsive: Make sure cards are full width on mobile */
+@media (max-width: 767px) {
 
-/* Iframe for embedded resume */
-.pdf-viewer iframe {
-  border-radius: 12px;
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
-  border: none;
-}
-
-/* Bulletless list for achievements and strengths */
-.resume-container ul.list-unstyled {
-  padding-left: 0;
-  list-style: none;
-}
-
-/* Responsive spacing between sections */
-.resume-container .row > div {
-  padding: 1rem;
-  border-radius: 12px;
-  background: rgba(255, 255, 255, 0.8);
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease;
-}
-
-.resume-container .row > div:hover {
-  transform: translateY(-5px);
-}
-
-/* Subtle fade-in animations using Animate.css */
-.animate__animated {
-  animation-duration: 1s;
-  animation-fill-mode: both;
+  .resume-card,
+  .resume-highlight {
+    min-width: 100%;
+    border-left: none !important;
+  }
 }

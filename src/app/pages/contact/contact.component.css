@@ -1,6 +1,6 @@
 .radiant-bg {
-  background: linear-gradient(to right, #6a11cb, #2575fc); 
-  color: #fff;
+  background: linear-gradient(120deg, #f6d365 0%, #fda085 100%); 
+  color: #39045a;
 }
 
 .contact-container {
@@ -15,11 +15,11 @@
 }
 
 .info-card {
-  background: rgba(255, 255, 255, 0.08);
+  background: rgba(255, 255, 255, 0.288);
   border: 1px solid rgba(255, 255, 255, 0.2);
   border-radius: 20px;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
-  color: #fff;
+  color: #160c34;
   backdrop-filter: blur(10px);
   font-family: 'Inter', sans-serif;
 }
